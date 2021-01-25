@@ -32,6 +32,7 @@ export default class App extends React.Component {
       },
     };
 
+
     ImagePicker.showImagePicker(options, res => {
       console.log('Response = ', res);
 
